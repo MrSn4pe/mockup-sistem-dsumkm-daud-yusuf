@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Ideate v.3 - Daud Yusuf Yanuar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1, h2, h3 {
+      color: #0a3d62;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    p {
+      margin: 8px 0;
+    }
+    ul, ol {
+      margin-left: 25px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Laporan Ideate</h1>
+    <p><strong>Nama:</strong> Daud Yusuf Yanuar<br>
+    <strong>NIM:</strong> 222611002<br>
+    <strong>Kelas:</strong> BD-NR-7</p>
+  </div>
+
+  <h2>1. Ringkasan Problem Statement & HMW</h2>
+  <p><strong>Studi Kasus:</strong> Sinkronisasi Stok dan integrasi aplikasi</p>
+  <p><strong>Problem Statement:</strong><br>
+  UMKM Mochi sering kesulitan mencatat stok dan pesanan (PO) karena masih dilakukan manual. Kadang ada stok yang tidak sinkron antara dapur dan kasir, bahkan pesanan pelanggan bisa tertukar atau terlambat. Selain itu, belum ada sistem yang terhubung langsung dengan aplikasi pengantaran seperti Gojek/Grab, sehingga proses pengiriman tidak efisien.</p>
+
+  <p><strong>How Might We (HMW):</strong></p>
+  <ul>
+    <li>Bagaimana kita membantu UMKM mencatat stok dan pesanan secara otomatis dan real-time?</li>
+    <li>Bagaimana sistem bisa langsung menampilkan data pelanggan (nama, alamat, nomor HP) saat ada PO baru?</li>
+    <li>Bagaimana sistem bisa terhubung dengan layanan pengantaran seperti Gojek/Grab agar pengiriman lebih cepat?</li>
+  </ul>
+
+  <h2>2. Brainstorming Ide</h2>
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Ide Solusi</th>
+      <th>Deskripsi Singkat</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Aplikasi Manajemen Stok</td>
+      <td>Mencatat stok bahan dan produk secara otomatis dan real-time.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Fitur PO Pelanggan</td>
+      <td>Pelanggan bisa memesan langsung, otomatis tersimpan dengan data lengkap.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Integrasi API Gojek/Grab</td>
+      <td>Pesanan bisa langsung dikirim ke layanan ojek online untuk pengantaran.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Dashboard Penjualan</td>
+      <td>Menampilkan data penjualan harian dan stok tersisa.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Multi-User Access</td>
+      <td>Kasir dan bagian dapur bisa update data dari perangkat masing-masing.</td>
+    </tr>
+  </table>
+
+  <h2>3. Penyaringan & Pemilihan Ide</h2>
+  <table>
+    <tr>
+      <th>Ide</th>
+      <th>Impact</th>
+      <th>Effort</th>
+      <th>Hasil</th>
+    </tr>
+    <tr>
+      <td>Aplikasi Manajemen Stok</td>
+      <td>Tinggi</td>
+      <td>Sedang</td>
+      <td>✅ Terpilih</td>
+    </tr>
+    <tr>
+      <td>Fitur PO Pelanggan</td>
+      <td>Sedang</td>
+      <td>Sedang</td>
+      <td>✅ Terpilih</td>
+    </tr>
+    <tr>
+      <td>Integrasi API Gojek/Grab</td>
+      <td>Tinggi</td>
+      <td>Tinggi</td>
+      <td>✅ Cadangan</td>
+    </tr>
+    <tr>
+      <td>Dashboard Penjualan</td>
+      <td>Sedang</td>
+      <td>Sedang</td>
+      <td>✅ Terpilih</td>
+    </tr>
+    <tr>
+      <td>Notifikasi Stok Habis</td>
+      <td>Tinggi</td>
+      <td>Sedang</td>
+      <td>✅ Terpilih</td>
+    </tr>
+  </table>
+
+  <h2>4. Konsep Solusi Terpilih</h2>
+
+    <p class="label">Nama Solusi (sementara):</p>
+    <hr>
+    <p style="text-align:center; font-size:30px;"><strong>DS UMKM</strong><br></p>
+    <p style="text-align:center;">Sistem Manajemen Stok & Pesanan UMKM</p>
+
+    <p class="label">Deskripsi Singkat:</p>
+   <p style="text-align:center;">
+      Aplikasi DS UMKM membantu UMKM mencatat stok produk, pesanan pelanggan, dan pengiriman secara otomatis. <br>
+      Sistem ini bisa menampilkan nama, alamat, dan nomor HP pelanggan untuk setiap PO, serta bisa dihubungkan <br>
+      dengan layanan pengiriman Gojek/Grab lewat API agar proses pengantaran lebih cepat dan efisien.
+    </p>
+  </div>
+
+  <p><strong>Target User:</strong>Pemilik dan staff UMKM</p>
+
+  <p><strong>Manfaat Utama:</strong></p>
+  <ul>
+    <li>1.	Owner dan tim dapur bisa lebih mudah memantau stok secara real-time tanpa perlu cek manual.</li>
+    <li>2.	Kasir lebih cepat memproses pesanan (PO) karena data pelanggan langsung muncul di sistem.</li>
+    <li>3.	Proses pengiriman lebih efisien karena bisa langsung terhubung dengan Gojek/Grab..</li>
+  </ul>
+
+  <p><strong>Sketsa / Visualisasi Alur:</strong></p>
+  <p>Pelanggan buat pesanan (PO) →</p>
+<p>Sistem simpan data pelanggan (nama, alamat, no HP) → </p>
+<p>Sistem cek stok → </p>
+    <p>Jika stok habis → Notifikasi ke dapur </p>
+    <p>Jika stok cukup → Konfirmasi pesanan  </p>
+<p>→ Pesanan siap → Sistem tawarkan pengiriman via Gojek/Grab </p> 
+<p>→ Stok otomatis berkurang & data tersimpan di dashboard</p>
+</p>
+
+  <h2>5. Refleksi Kelompok</h2>
+  <p><strong>Apa tantangan saat brainstorming?</strong><br>
+  Tantangan utamanya adalah menyatukan ide/keinginan klien menentukan fitur yang paling penting buat UMKM (biar nggak kebanyakan tapi tetap berguna)</p>
+
+  <p><strong>Mengapa solusi ini yang dipilih?</strong><br>
+  Karena masalah terbesar UMKM Mochi ada di stok dan PO yang sering tidak sinkron. Dengan aplikasi ini, semua data bisa terpusat dan otomatis. Selain itu, integrasi ke aplikasi Gojek/Grab dianggap paling relevan karena mereka sudah biasa menggunakan layanan itu untuk pengiriman.</p>
+
+  <p><strong>Bagaimana solusi ini relevan dengan bidang Bisnis Digital & Komputer?</strong><br>
+  	Dari sisi Bisnis Digital, aplikasi membantu efisiensi operasional UMKM dan bisa meningkatkan omzet lewat manajemen pesanan yang lebih rapi</p>
+
+</body>
+</html>
